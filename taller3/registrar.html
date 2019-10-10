@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+</head>
+<body class="text-center">
+    
+    <div class="page-header">
+        <h1>TELEMONITOREO DE PACIENTES EN UNA RED LOCAL</h1>
+    </div>
+    <div class="container w-25" >    
+        <form method="POST" action="server/registrarMed.php" class=" mr-auto ml-auto mt-auto mb-auto">
+        <h1 class="h3 mb-3 font-weight-normal">TPA</h1>
+        <label for="usr" class="">Usuario</label>
+        <input type="text" id="usr" name="usr" class="form-control" placeholder="Usuario" required="" autofocus="">
+        <label for="password" class="">Password</label>
+        <input type="password" id="password" name="password1" class="form-control" placeholder="Password" required="">        
+
+        <label for="password" class="">Password repeat</label>
+        <input type="password" id="password" name="password2" class="form-control" placeholder="Password" required="">
+        <div class="checkbox mb-3">
+            <label>
+                <input type="checkbox" value="remember-me"> Recuerdame
+            </label>
+        </div>
+        <input class="btn btn-lg btn-info btn-block" type="submit" value="Registrar">
+        <span class="mt-5 mb-3 text-muted">registro-©2019</span>
+    </form>
+
+    </div>
+</body>
+</html>
